@@ -893,8 +893,7 @@ Banner Style
   padding: 250px 120px 150px 120px;
   position: relative;
   overflow: hidden;
-  min-height: 50%;
-  height: 80vh;
+  
 }
 
 
@@ -1123,18 +1122,6 @@ About Us
   z-index: 1;
 }
 
-.about-us:after {
-  background-image: url(../images/about-bg.jpg);
-  width: 777px;
-  height: 1132px;
-  content: '';
-  position: absolute;
-  background-repeat: no-repeat;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 0;
-}
 
 
 
@@ -2004,9 +1991,7 @@ responsive
   .about-us .box-item {
     text-align: center;
   }
-  .about-us:after {
-    display: none;
-  }
+ 
   .about-us .gradient-button,
   .about-us span {
     text-align: center;
