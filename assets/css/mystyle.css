@@ -1,0 +1,31 @@
+.home-title{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.home-para{
+    font-size: 1.4rem;
+}
+.ns-btn{
+    background-color: #0072bc;
+    color: white !important;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.ns-btn-outline{
+    border: 2px solid #0072bc;
+    padding: 1rem;
+    color: #0072bc;
+    border-radius: 10px;
+}
+
+.ns-btn:hover{
+    background-color: #5fa1cc ;
+    color: white !important;
+}
+
+.ns-btn-outline:hover{
+    background-color: #0072bc;
+    color: wte;
+}
+
